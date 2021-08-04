@@ -1,0 +1,78 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#one {
+    width: 25%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    
+    border-width: 5px;
+    border-style: solid;
+    border-color: blue;
+
+    margin: 5px;
+    padding: 5px;
+}
+
+#two {
+    width: 25%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;
+
+    margin: 5px;
+    padding: 5px;
+}
+
+#three {
+    width: 25%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: orange;
+
+    margin: 5px;
+    padding: 5px;
+}
+
+#four {
+    width: 25%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+    border-width: 5px;
+    border-style: solid;
+    border-color: yellow;
+
+    margin: 5px;
+    padding: 5px;
+}
+
+#link {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+
+    color: #fefefe;
+    background-color: #354eb1;
+    padding: 1px;
+
+}
+
+#link > a {
+    color: #fefefe;
+    text-decoration: none;
+}
